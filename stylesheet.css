@@ -214,7 +214,6 @@ input {
 	margin-left:20px;
 	font-family:Arial;
 	font-size:20px;
-	word-break: break-all;
 }
 
 #wiadomosc {
@@ -235,6 +234,7 @@ input {
 	border-radius:10px;
 	border-style:solid;
 	border-color:black;
+	cursor:pointer;
 }
 
 #nastepne {
@@ -249,6 +249,7 @@ input {
 	border-radius:10px;
 	border-style:solid;
 	border-color:black;
+	cursor:pointer;
 	
 }
 
@@ -256,13 +257,14 @@ input {
 	position:absolute;
 	padding:8px;
 	margin-left:400px;
-	margin-top:500px;
+	margin-top:550px;
 	font-family:Arial;
 	font-size:20px;
 	font-weight:bold;
 	border-radius:10px;
 	border-style:solid;
 	border-color:black;
+	cursor:pointer;
 }
 
 .photogalery img{
@@ -281,3 +283,4 @@ input {
 .photo {
 	display:block;
 }
+

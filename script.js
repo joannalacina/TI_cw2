@@ -18,12 +18,55 @@ $("span").html("Usługi geodezyjno-kartograficzne");
     }
   );
   
+//=================================================================================================
  
- $("input").focus(function(){
-      $("input").css("outline-style","solid");
-       $("input").css("outline-color","blue");
-    });    
-    
+$("#imie").focus(function(){
+     $("#imie").css("outline-style","solid");
+     $("#imie").css("outline-color","blue");
+  });  
+ 
+ 
+$("#imie").hover(function(){
+     $("#imie").css("outline-style","none");
+     $("#imie").css("outline-color","none");
+  });   
+ 
+  
+$("#nazwisko").focus(function(){
+     $("#nazwisko").css("outline-style","solid");
+     $("#nazwisko").css("outline-color","blue");
+  }); 
+  
+  
+$("#nazwisko").hover(function(){
+     $("#nazwisko").css("outline-style","none");
+     $("#nazwisko").css("outline-color","none");
+  }); 
+
+
+$("#mail").focus(function(){
+     $("#mail").css("outline-style","solid");
+     $("#mail").css("outline-color","blue");
+  }); 
+  
+  
+$("#mail").hover(function(){
+     $("#mail").css("outline-style","none");
+     $("#mail").css("outline-color","none");
+  });   
+  
+  
+$("#wiadomosc").focus(function(){
+     $("#wiadomosc").css("outline-style","solid");
+     $("#wiadomosc").css("outline-color","blue");
+  });     
+  
+  
+ $("#wiadomosc").hover(function(){
+     $("#wiadomosc").css("outline-style","none");
+     $("#wiadomosc").css("outline-color","none");
+  });  
+  
 //=================================================================================================
  
     $("#wyslij").click(function() {
