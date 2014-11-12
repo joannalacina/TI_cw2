@@ -1,0 +1,283 @@
+body {
+	background-color:#c0c0c0;
+}
+
+#logo {
+	background-color:#b8e3d7;
+	border-top-style:solid;
+	border-bottom-style:solid;
+	height:150px;
+	width:1600px;
+	margin-left:100px;
+	margin-right:100px;
+	margin-top:20px;
+	border-radius:20px;
+	box-shadow: 0 0 8px #6050dc;
+    cursor:pointer;
+}
+
+h1 {
+	text-align:center;
+	font-family:Helvetica;
+	font-size:40px;
+}
+
+#size {
+	margin-top:20px;
+	margin-left:40px;
+	height: 90px;
+	width:150px;
+	float:left;
+	border: 2px solid black;
+}
+
+span {
+	font-size:20px;
+}
+
+#logo2 {
+	margin-left:60px;
+	margin-top:0px;
+}
+
+a {
+	color:black;
+	text-decoration: none;
+	cursor:pointer;
+}
+
+.navbar2 a:hover {
+	color:blue;
+}
+
+#menu {
+	float:left;
+	margin-top:5px;
+}
+
+ul {
+	list-style-type:none;
+}
+
+.navbar {
+	display:inline;
+	border: 2px solid #000000;
+	outline-style:ridge;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:20px;
+	padding-left: 100px;
+	padding-right: 100px;
+	background-color:#6050dc;
+}
+
+.navbar2 {
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:20px;
+	text-align:center;
+	background-color:#b8e3d7;
+	border-radius:10%;
+	padding-bottom:10px;
+	padding-top:10px;
+	line-height:30px;
+	margin-left:60px;
+	outline-style:ridge;
+}
+
+.navi {
+	font-family:Verdana;
+	font-size:20px;
+	background-color:#6050dc;
+	text-align:center;
+	text-decoration:underline;
+	border:2px solid black;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:20px;
+	padding-right:20px;	
+	margin-left:60px;
+	margin-top:20px;
+	outline-style:ridge;
+}
+
+#content {
+	margin-left:440px;
+	margin-right:400px;
+	margin-top:5px;	
+	position:absolute;
+}
+
+h3 {
+	font-family:Times;
+	font-size:28px;
+	text-align:justify;
+	margin-bottom:0px;		
+}
+
+em {
+	text-decoration:underline;
+}
+
+h4 {
+	font-family:Times;
+	font-size:27px;
+	text-align:justify;	
+	margin-bottom:0px;
+}
+
+h5 {
+	font-family:Times;
+	font-size:26px;
+	text-align:justify;
+	line-height:25px;
+	margin-bottom:0px;
+}
+
+p {
+	font-family:Times;
+	font-size:25px;
+	text-align:justify;
+	text-indent:50px;
+	line-height:30px;
+	margin-bottom:0px;
+}
+
+#list {
+	list-style-type:circle;
+	text-indent:50px;
+	margin-top:0px;
+	
+}
+
+li {
+	font-size:25px;
+	font-family:Times;
+	line-height:30px;
+}
+
+#menu2 {
+	float:right;
+	margin-right:180px;
+	margin-top:60px;	
+}
+
+.photo1 {
+	display:inline;
+	margin-bottom:10px;
+	outline-style:ridge;
+}
+
+.photo2 {
+	width:80px;
+	height:80px;
+}
+
+#footer {
+	height:120px;
+	width:1600px;
+	background-color:#6050dc;	
+	margin-left:100px;
+	margin-right:100px;
+	clear:both;
+	border-radius:20px;
+	border-top-style:solid;
+	border-bottom-style:solid;
+	text-align:right;
+}
+
+#footer p {
+	font-family:Times;
+	color:white;
+	font-size:25px;
+	padding-bottom:5px;
+}
+
+#formularz {
+	float:right;
+	margin-top:200px;
+	margin-right:180px;
+}
+
+form {
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	
+}
+
+input {
+	width:200px;
+	height:25px;
+	background-color:#b8e3d7;
+	float:right;
+	margin-left:20px;
+	font-family:Arial;
+	font-size:20px;
+	word-break: break-all;
+}
+
+#wiadomosc {
+	height:150px;
+}
+
+.active {
+	background-color:#b8e3d7;
+}
+
+#poprzednie {
+	padding:8px;
+	margin-top:600px;
+	margin-bottom:100px;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	border-radius:10px;
+	border-style:solid;
+	border-color:black;
+}
+
+#nastepne {
+	position:relative;
+	padding:8px;
+	margin-top:600px;
+	margin-bottom:100px;
+	margin-left:400px;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	border-radius:10px;
+	border-style:solid;
+	border-color:black;
+	
+}
+
+#wyslij {
+	position:absolute;
+	padding:8px;
+	margin-left:400px;
+	margin-top:500px;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	border-radius:10px;
+	border-style:solid;
+	border-color:black;
+}
+
+.photogalery img{
+	padding:5px;
+	display:none;
+	border: 2px solid;
+	border-radius: 10px;
+	padding: 5px;
+	position:relative;
+	top:590px;
+	left:150px;
+	width:500px;
+	height:300px;
+}
+
+.photo {
+	display:block;
+}
